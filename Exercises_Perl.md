@@ -23,3 +23,19 @@ output :
 Arjun
 WELCOME Arjun !
 ```
+## 2. Write a Perl program to calculate the factorial of a number.
+code: 
+```
+my $n = <STDIN>;
+chomp($n);
+my $fact=1;
+for($i=1;$i<=$n;$i++){
+$fact *=$i;
+}
+print "the factorial of the number $n is $fact";
+```
+output :
+```
+20
+the factorial of the number 20 is 2432902008176640000
+```
