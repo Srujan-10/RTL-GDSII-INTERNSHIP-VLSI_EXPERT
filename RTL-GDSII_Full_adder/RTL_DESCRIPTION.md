@@ -1,3 +1,5 @@
+# Four Bit Full Adder RTL Description :
+
 This Verilog module is a 4-bit full adder designed to perform binary addition. It takes two 4-bit inputs (`A` and `B`), a carry-in bit (`C_in`), and a clock signal (`Clock`) to produce a 4-bit sum (`SUM`) and a carry-out bit (`C_out`). The module uses both sequential and combinational logic to ensure accurate addition.
 
 ## Key Features
