@@ -193,4 +193,29 @@ If keeping sequential logic, wait one clock cycle before observing outputs:
 ```
 ## Schematic View in Synopsys Verdi
 
-## RTL Simulation  
+![image](https://github.com/user-attachments/assets/130ef8eb-2bd6-487c-a5f8-b2019f273c37)
+
+
+![image](https://github.com/user-attachments/assets/b29c8b10-1d08-4b43-8a8f-50a49f22a59a)
+
+
+
+## RTL Simulation Waveform  View using Synopsys Verdi 
+
+
+![image](https://github.com/user-attachments/assets/e5065406-5e7b-42f3-b407-bd1dfe27a7e8)
+
+
+### This is the waveform with all signals :
+
+![image](https://github.com/user-attachments/assets/153ae31b-1ae9-4949-8a6c-17269f7b46c0)
+
+
+
+
+
+
+
+
+
+
