@@ -1,8 +1,8 @@
 # RTL- GDSII Training And Internship By VLSI EXPERT
 ### 1. RTL - GDSII of four bit full adder design :
-   - [RTL Description]
-   - [RTL Code debugging and testbench simulation using Synopsys VCS  and VERDI].
-   - [Code Coverage and functional Coverage ].
+   - [RTL Description](https://github.com/Srujan-10/RTL-GDSII-INTERNSHIP-VLSI_EXPERT/blob/main/RTL-GDSII_Full_adder/RTL_DESCRIPTION.md).
+   - [RTL Code debugging and testbench simulation using Synopsys VCS  and VERDI]().
+   - [Code Coverage and functional Coverage ]().
    - [System Verilog Methodology (SVM) ].
    - [Linting Using Synopsys Spyglass].
    - [Logical Synthesis of four bit full adder design using Synopsys Design Compiler].
