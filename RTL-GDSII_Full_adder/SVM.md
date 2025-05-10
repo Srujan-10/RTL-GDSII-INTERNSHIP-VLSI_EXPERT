@@ -8,6 +8,10 @@ This document explains a **SystemVerilog-based testbench architecture of full ad
 
 ---
 
+![image](https://github.com/user-attachments/assets/b7eb98e8-5481-4b69-a91c-ca2dc3984101)
+
+
+
 ## Packet (Transaction Object)
 
 - A `packet` is a class that encapsulates transaction-level information like address, data, and control signals.
