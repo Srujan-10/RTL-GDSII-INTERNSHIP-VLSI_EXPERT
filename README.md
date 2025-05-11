@@ -8,7 +8,7 @@
    - [Logical Synthesis of four bit full adder design using Synopsys Design Compiler](https://github.com/Srujan-10/RTL-GDSII-INTERNSHIP-VLSI_EXPERT/blob/main/RTL-GDSII_Full_adder/Logic_Synthesis.md).
    - [Formal Verification Using Synopsys Formality]()
    - [Physical Design of four bit full adder design using Synopsys Integrated Circuit Compiler (ICC2)]().
-       - [Design_Import]().
+       - [Design_Import](https://github.com/Srujan-10/RTL-GDSII-INTERNSHIP-VLSI_EXPERT/blob/main/RTL-GDSII_Full_adder/Physical_Design/Design_import.md).
        - [Floorplan]().
        - [Powerplan]().
        - [Placement]().
