@@ -234,4 +234,13 @@ endclass
 ### SVM simulation using VCS and Verdi 
 
 
+![Screenshot_2025-05-11_174938 1](https://github.com/user-attachments/assets/cf523ca3-11e7-481f-bbb6-17074bb6723f)
+
+
+
+![WhatsApp Image 2025-05-11 at 18 13 00_feb61320](https://github.com/user-attachments/assets/68d7000c-c284-4c7e-80ed-043a69edcb9a)
+
+Most of my values generated did not match the result at time so there is a need to update the rtl or keep a task to check and generate values.
+
+
 
