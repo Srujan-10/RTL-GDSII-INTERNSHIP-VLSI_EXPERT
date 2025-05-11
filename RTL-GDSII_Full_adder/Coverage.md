@@ -1,10 +1,10 @@
-# 🔍 Understanding Coverage in Design Verification and implementing Functional and code coverage for 4 bit full adder.
+#  Understanding Coverage in Design Verification and implementing Functional and code coverage for 4 bit full adder.
 
-## ✅ What is Coverage?
+##  What is Coverage?
 
 Coverage is a **generic term used to measure the progress of completing design verification**. Think of it like painting a canvas—your simulations try to touch every corner of your design space. The goal is to **ensure all legal combinations and scenarios** are tested in the design.
 
-🧠 **Coverage tools** collect data during simulation and generate a **coverage report** post-simulation. This report helps identify **coverage holes**, prompting engineers to:
+**Coverage tools** collect data during simulation and generate a **coverage report** post-simulation. This report helps identify **coverage holes**, prompting engineers to:
 
 - Modify existing testbenches
 - Add new test cases
@@ -14,7 +14,7 @@ This process is **iterative**—you repeat until the **desired coverage level** 
 
 ---
 
-## 🧪 Types of Coverage
+##  Types of Coverage
 
 1. **Functional Coverage**
    - Focuses on **what the design is supposed to do**.
@@ -33,7 +33,7 @@ This process is **iterative**—you repeat until the **desired coverage level** 
 
 ---
 
-## 💡 Why Do We Need Verification?
+##  Why Do We Need Verification?
 
 Once an RTL is written, it contains:
 - Many **conditions**
@@ -43,7 +43,7 @@ Once an RTL is written, it contains:
 
 All of these must be **verified** to check whether the design behaves as expected.
 
-### 📌 Example:
+###  Example:
 
 If we design a **4-bit full adder**, it should:
 - Take two 4-bit inputs `A` and `B`
@@ -59,17 +59,17 @@ Hence, **automation with verification tools** and **random stimulus generation**
 
 ---
 
-## 📈 Importance of Coverage
+##  Importance of Coverage
 
 Let’s assume a circuit with **40 inputs**. If a test only verifies 20 inputs, the **code coverage** would be 20/40 = 0.5 = **50%**. That’s only **half-verified**.
 
 Take an example of a **smartphone (e.g., iPhone)**—they go through **intense verification** and testing to ensure stability, which is why they are expensive and reliable.
 
-✅ A good rule in industry is to **target 90% or higher coverage** before **verification signoff**. The more coverage, the higher the **confidence in design stability**.
+ A good rule in industry is to **target 90% or higher coverage** before **verification signoff**. The more coverage, the higher the **confidence in design stability**.
 
 ---
 
-## ⚙️ Code Quality & Optimization
+##  Code Quality & Optimization
 
 Redundant or inefficient RTL:
 - Increases **area**
@@ -85,13 +85,13 @@ Verification ensures this **optimized logic** still fulfills the design intent.
 
 ---
 
-## 📊 Code Coverage Types Explained
+##  Code Coverage Types Explained
 
 ### 1. Line Coverage
 
 Line coverage checks if each **line of code** has been executed during simulation.
 
-🔍 **Example:**
+ **Example:**
 
 ```verilog
 always @(posedge clk) begin
@@ -102,7 +102,7 @@ end
 2. Statement Coverage
 Statement coverage checks if each complete statement has been executed. It's similar to line coverage but considers statements, even if they span multiple lines.
 
-🔍 Example:
+ Example:
 
 ```
 if (x > y)
@@ -115,7 +115,7 @@ Both paths (if and else) need to be taken during simulation to get 100% statemen
 3. Block Coverage
 Block coverage checks whether entire blocks of code (e.g., begin-end blocks, case blocks) are executed.
 
-🔍 Example:
+ Example:
 
 ```
 always @(posedge clk) begin
@@ -129,7 +129,7 @@ end
 ```
 If only 2 out of 4 operations are tested, then block coverage = 50%.
 
-🔁 Summary
+ Summary
 Coverage is a crucial metric in verification.
 
 Helps in identifying untested parts of the RTL.
@@ -347,7 +347,7 @@ Holes in coverage (highlighted for test improvement).
 
 Cross-coverage between SUM and C_out
 
-📌 What to Do After Running Verdi
+### What to Do After Running Verdi ?
 In the Verdi GUI:
 
 Use Coverage → Coverage Summary to see % values.
