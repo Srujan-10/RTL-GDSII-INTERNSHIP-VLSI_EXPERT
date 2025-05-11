@@ -4,7 +4,7 @@
    - [RTL Code debugging and testbench simulation using Synopsys VCS  and VERDI](https://github.com/Srujan-10/RTL-GDSII-INTERNSHIP-VLSI_EXPERT/blob/main/RTL-GDSII_Full_adder/RTL_Testbench_simulation.md).
    - [Code Coverage and functional Coverage ](https://github.com/Srujan-10/RTL-GDSII-INTERNSHIP-VLSI_EXPERT/blob/main/RTL-GDSII_Full_adder/Coverage.md).
    - [System Verilog Methodology (SVM) ](https://github.com/Srujan-10/RTL-GDSII-INTERNSHIP-VLSI_EXPERT/blob/main/RTL-GDSII_Full_adder/SVM.md).
-   - [Linting Using Synopsys Spyglass]().
+   - [Linting Using Synopsys Spyglass](https://github.com/Srujan-10/RTL-GDSII-INTERNSHIP-VLSI_EXPERT/tree/main/RTL-GDSII_Full_adder).
    - [Logical Synthesis of four bit full adder design using Synopsys Design Compiler]().
    - [Physical Design of four bit full adder design using Synopsys Integrated Circuit Compiler (ICC2)]().
        - [Floorplan]().
