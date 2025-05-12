@@ -124,7 +124,9 @@ Input/output delays
 Load constraints
 
 # 12. Run synthesis with aggressive optimization
-compile_ultra
+```
+compile
+```
 Explanation:
 
 Performs synthesis, logic optimization, and technology mapping to standard cells.
@@ -135,7 +137,8 @@ Targets delay, area, and power optimization based on your constraints.
 
 Now the design is built using SAED 32nm standard cells (e.g., NAND2X1, INVX1, etc.), replacing GTECH components.
 
-![WhatsApp Image 2025-05-12 at 00 21 23_594cc270](https://github.com/user-attachments/assets/c98891ed-4b29-4b75-aed9-1eded891226e)
+![image](https://github.com/user-attachments/assets/bb5a3f6f-b850-46a7-9a79-0d8b97cebd25)
+
 
 
 
@@ -181,13 +184,11 @@ As we can see the hold timing is violated.
 
 3.  qor   report :
 
-![WhatsApp Image 2025-05-12 at 00 30 18_9e3089f4](https://github.com/user-attachments/assets/65f1adf6-8061-4579-a839-2bbdfe0d5e1e)
+![image](https://github.com/user-attachments/assets/51a33d71-114a-472c-9e42-afbea71b2518)
+
+![image](https://github.com/user-attachments/assets/52af5233-5cac-42f4-9592-da1cc2fd1cb7)
 
 
-![WhatsApp Image 2025-05-12 at 00 30 18_12e398e4](https://github.com/user-attachments/assets/c75af8cb-e71d-4f1a-9a72-ec1bcdc4a1a5)
-
-
-![WhatsApp Image 2025-05-12 at 00 30 19_27ace11e](https://github.com/user-attachments/assets/e30dac81-2a3e-4d35-9c3d-514c0804f774)
 
 4. Constraint report :
 
