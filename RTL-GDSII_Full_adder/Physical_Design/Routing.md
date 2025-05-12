@@ -13,6 +13,11 @@ Routing is the process of physically connecting all nets in the design by placin
 3. **Detailed Routing** – Finalizes all physical routes and checks for DRC violations.
 
 ---
+## Reference Design Inforamtion :
+
+
+![Screenshot 2025-05-13 001405](https://github.com/user-attachments/assets/c601452c-a401-4a4b-9093-0054a676bb0b)
+
 
 ## Objectives of Routing
 
@@ -100,6 +105,9 @@ write_verilog $routed_netlist
 write_sdc -output $SDC_FILE
 ```
 
+![Screenshot 2025-05-13 004323](https://github.com/user-attachments/assets/d066fa96-3f53-4280-a1dc-b5ec7fc23a77)
+
+
 
 | Output File       | Description                                      |
 |-------------------|--------------------------------------------------|
@@ -120,6 +128,9 @@ Once routing is complete, timing analysis is performed on the `func_slow` scenar
 report_timing -scenario func_slow -delay_type max 
 ```
 
+![Screenshot 2025-05-13 000816](https://github.com/user-attachments/assets/68ae1dc4-a2f9-466e-9ff6-50e10db7c74a)
+
+
 - Checks the **longest paths** in the design.
 - Validates **setup timing violations**.
 - Uses parasitic data from the routed design.
@@ -129,6 +140,9 @@ report_timing -scenario func_slow -delay_type max
 ```tcl
 report_timing -scenario func_slow -delay_type min 
 ```
+
+![Screenshot 2025-05-13 000831](https://github.com/user-attachments/assets/8bd5b0b6-bf29-43a3-9b54-0157ea2cc280)
+
 
 - Checks the **shortest paths**.
 - Validates **hold timing violations** to ensure signals don’t arrive too early.
