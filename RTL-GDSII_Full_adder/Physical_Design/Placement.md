@@ -24,11 +24,18 @@ Placement is the process of assigning exact physical locations to all standard c
 
 #### Placement Script Breakdown
 
+![Screenshot 2025-05-12 234102](https://github.com/user-attachments/assets/8c16ef82-7679-48d1-92dd-a6ba0c852119)
+
+
 1. Read the SDC File
 ```
 read_sdc -echo $SDC_PATH
 ```
 Loads the design timing constraints (clock, input delay, output delay, etc.)
+
+Site Row : 
+![Screenshot 2025-05-12 235252](https://github.com/user-attachments/assets/f77a0526-41c9-4166-acad-10025fa21242)
+
 
 ------------------------------------------------------------
 
@@ -122,7 +129,14 @@ Performs advanced optimization including timing-driven placement, reordering, an
 ```
 legalize_placement
 ```
+
+![Screenshot 2025-05-12 234418](https://github.com/user-attachments/assets/05795d76-9ae6-4ae2-8a4d-ad7436d83a4d)
+
 Ensures all placed cells conform to legal design rules (spacing, orientation, and row alignment).
+
+![Screenshot 2025-05-12 234942](https://github.com/user-attachments/assets/c6f1ed15-adfa-41c3-8637-d8e78f43e9d6)
+
+![Screenshot 2025-05-12 234954](https://github.com/user-attachments/assets/44f83b1a-969b-4dc5-a833-5f6e5b0c9130)
 
 ------------------------------------------------------------
 
