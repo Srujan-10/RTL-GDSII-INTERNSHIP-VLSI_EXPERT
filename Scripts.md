@@ -176,3 +176,17 @@ save_block -as routing_complete
 report_congestion >> post_route_congestion1.rpt
 
 ```
+```
+/ve/ti_home/ti_srujan_658/ALU_10_SOFT_MACRO/Synthesis/adder32bit/ICC2/FA_LIB/
+/ve/ti_home/ti_srujan_658/ALU_10_SOFT_MACRO/Synthesis/subractor/ICC2/SUB/
+/ve/ti_home/ti_srujan_658/ALU_10_SOFT_MACRO/Synthesis/multiplier/ICC2/MULTIPLIER_LIB/
+/ve/ti_home/ti_srujan_658/ALU_10_SOFT_MACRO/Synthesis/mux/ICC2/MUX_8X1/
+/ve/ti_home/ti_srujan_658/ALU_10_SOFT_MACRO/Synthesis/divider/ICC2/DIVIDER/
+/ve/ti_home/ti_srujan_658/ALU_10_SOFT_MACRO/Synthesis/comparator/ICC2/COMP_LIB/
+/ve/ti_home/ti_srujan_658/ALU_10_SOFT_MACRO/Synthesis/shifter/ICC2/SHIFTER/
+/ve/ti_home/ti_srujan_658/ALU_10_SOFT_MACRO/Synthesis/flag_generator/ICC2/FLAG_GEN/
+/ve/ti_home/ti_srujan_658/ALU_10_SOFT_MACRO/Synthesis/clipper_unit/ICC2/CLIPPER_LIB/
+/ve/ti_home/ti_srujan_658/ALU_10_SOFT_MACRO/Synthesis/saturate_unit/ICC2/SATURATE_UNIT/
+/ve/ti_home/ti_srujan_658/ALU_10_SOFT_MACRO/Synthesis/Clock_gen/ICC2/Clock_gen/
+
+```
