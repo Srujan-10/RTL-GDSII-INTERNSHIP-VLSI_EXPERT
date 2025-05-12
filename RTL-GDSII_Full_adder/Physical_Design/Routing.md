@@ -86,6 +86,11 @@ Runs post-routing optimization using congestion and crosstalk-driven logic to im
 
 ---
 
+#### Final Design View : 
+
+![Screenshot 2025-05-13 001147](https://github.com/user-attachments/assets/cea8dcb2-c8c1-4a74-ac0b-f0a4c3c55bc3)
+
+
 ### Output File Generation
 
 ```tcl
@@ -94,6 +99,7 @@ write_parasitics -format spef -output $SPEF_FILE
 write_verilog $routed_netlist
 write_sdc -output $SDC_FILE
 ```
+
 
 | Output File       | Description                                      |
 |-------------------|--------------------------------------------------|
