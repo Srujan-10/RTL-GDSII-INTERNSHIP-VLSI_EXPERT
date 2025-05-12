@@ -44,7 +44,7 @@ set SDC_PATH "./results/full_adder.mapped.sdc"
 ```
 ### Create a design library and reference technology database
 ```
-create_lib -ref_libs "$PDK_PATH/lib/stdcell_rvt/ndm/saed32rvt_c.ndm" FA
+create_lib -ref_libs "$PDK_PATH/lib/stdcell_rvt/ndm/saed32rvt_c.ndm"  -technology "/data/pdk/pdk32nm/SAED32_EDK/tech/milkyway/saed32nm_1p9m_mw.tf"  FULLADDER
 ```
 ####  Understanding `.ndm` and LEF Data in ICC2
 
@@ -94,7 +94,26 @@ report_lib_cells FA/*
 ```
 
 ### Read the synthesized Verilog netlist
-read_verilog {./results/full_adder.mapped.v} -top full_adder -design full_adder -library FA
+```
+read_verilog {./results/full_adder.mapped.v} -top full_adder -design full_adder -library FULLADDER
+```
+After this command you can see the following on the terminal like how many top level ports ,modules instances  and nets   are there in your design :
+
+![WhatsApp Image 2025-05-12 at 15 38 00_67ea2168](https://github.com/user-attachments/assets/0d8b819e-1a03-428c-9408-9d442ef5c669)
+
+
 
 ### Link the design block
+```
 link_block
+```
+
+![WhatsApp Image 2025-05-12 at 15 38 50_88677991](https://github.com/user-attachments/assets/51ddab81-a02b-4b51-83d2-758378a43fb7)
+
+
+After this command you can see the following on the terminal like how many ports are there in your design : 
+
+
+
+
+
