@@ -63,12 +63,14 @@ Performs global routing to estimate paths and check routability.
 ```tcl
 route_track
 ```
+
 Assigns nets to specific routing tracks aligned with metal grids.
 
 ```tcl
 route_detail
 ```
 Finalizes the routing by placing actual wires and vias.
+![Screenshot 2025-05-13 000954](https://github.com/user-attachments/assets/9b3d362a-61a4-42e2-8faa-d3d6914b1dbb)
 
 ---
 
@@ -79,6 +81,8 @@ set_app_options -name route_opt.flow.enable_ccd -value true
 route_opt
 ```
 Runs post-routing optimization using congestion and crosstalk-driven logic to improve quality of results.
+
+![Screenshot 2025-05-13 001042](https://github.com/user-attachments/assets/48481f0f-2264-4151-a041-cb74120ec2b2)
 
 ---
 
