@@ -99,9 +99,6 @@ read_verilog {./results/full_adder.mapped.v} -top full_adder -design full_adder 
 ```
 After this command you can see the following on the terminal like how many top level ports ,modules instances  and nets   are there in your design :
 
-![WhatsApp Image 2025-05-12 at 15 38 00_67ea2168](https://github.com/user-attachments/assets/0d8b819e-1a03-428c-9408-9d442ef5c669)
-
-
 
 ### Link the design block
 ```
