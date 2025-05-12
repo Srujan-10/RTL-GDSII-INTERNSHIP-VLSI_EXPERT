@@ -111,9 +111,24 @@ link_block
 ![WhatsApp Image 2025-05-12 at 15 38 50_88677991](https://github.com/user-attachments/assets/51ddab81-a02b-4b51-83d2-758378a43fb7)
 
 
-After this command you can see the following on the terminal like how many ports are there in your design : 
+After this command you can see that the design is successfully limked  : 
 
+```
+start_gui 
+```
+The Standard cells and ports  are now visible in the gui window  :
 
+![WhatsApp Image 2025-05-12 at 15 34 49_096477f3](https://github.com/user-attachments/assets/d6d3b586-84d0-4e61-b9be-94ebe62ed5cd)
 
+ ### Sanity check/Atomic check for flooplan : 
+ 
+```
+check_design -checks dp_pre_floorplan
+
+```
+
+![WhatsApp Image 2025-05-12 at 15 34 48_d1acc1d6](https://github.com/user-attachments/assets/1a202b5a-89dc-49f2-9fa1-13486722aa67)
+
+ As there are no errors we can proceed to floorplan : 
 
 
