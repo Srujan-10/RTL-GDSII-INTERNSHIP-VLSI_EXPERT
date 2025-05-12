@@ -28,7 +28,11 @@ The goal was to ensure the RTL is clean, synthesis-ready, and functionally robus
 - Detecting unintended latch inference and combinational logic errors  
 - Ensuring clock domain consistency and proper signal synchronization  
 - Identifying redundant or unused logic  
-- Maintaining Verilog coding standards to improve design readability and maintainability  
+- Maintaining Verilog coding standards to improve design readability and maintainability
+
+Types of lints available : 
+![WhatsApp Image 2025-05-11 at 19 45 11_2ca4b934](https://github.com/user-attachments/assets/a4f17cfd-f29a-41fe-b804-6f781a845d79)
+
 
 ## File Analyzed
 
@@ -50,7 +54,7 @@ The goal was to ensure the RTL is clean, synthesis-ready, and functionally robus
 
 ![WhatsApp Image 2025-05-11 at 19 45 10_2a80060b](https://github.com/user-attachments/assets/4abd96ba-995c-455b-ab0a-0ba319df3467)
 
-![WhatsApp Image 2025-05-11 at 19 45 11_2ca4b934](https://github.com/user-attachments/assets/a4f17cfd-f29a-41fe-b804-6f781a845d79)
+
 
 
 
