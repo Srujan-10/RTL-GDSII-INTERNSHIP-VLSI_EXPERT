@@ -1,4 +1,32 @@
 ```
+set RTL_SOURCE_FILES /ve/ti_home/ti_srujan_658/all_rtl_files/full_adder.v
+set PDK_PATH /data/pdk/pdk32nm/SAED32_EDK
+source ./rm_setup/dc_setup.tcl
+define_design_lib WORK -path ./WORK
+set_app_var hdlin_enable_hier_map true
+set_dont_use [get_lib_cells */FADD*]
+set_dont_use [get_lib_cells */INV*]
+set_dont_use [get_lib_cells */HADD*]
+set_dont_use [get_lib_cells */NAND*]
+set_dont_use [get_lib_cells */OR*]
+analyze -format verilog $RTL_SOURCE_FILES
+elaborate $DESIGN_NAME
+create_clock -period 1 [get_ports Clock]
+set_input_delay -max 0.5 -clock Clock [all_inputs]
+set_input_transition 0.5 [all_inputs]
+set_output_delay -max 0.5 -clock Clock [all_outputs]
+set_clock_uncertainty -setup 0.300 [get_clocks Clock]
+set_clock_uncertainty -hold 0.100 [get_clocks Clock]
+set_max_transition 0.250 [current_design]
+set_max_transition -clock_path 0.150 [get_clocks Clock]
+set_verification_top
+compile
+write -format verilog -hierarchy -output  ./${RESULTS_DIR}/${DCRM_FINAL_VERILOG_OUTPUT_FILE}
+write_sdc /ve/ti_home/ti_srujan_658/all_rtl_files/SDC/mapped_FA_4.sdc
+
+```
+
+```
 set MAPPED_NETLIST_FOLDER_PATH ./full_adder.mapped.v 
 set PDK_PATH /data/pdk/pdk32nm/SAED32_EDK
 create_lib -ref_libs "/data/pdk/pdk32nm/SAED32_EDK/lib/stdcell_rvt/ndm/saed32rvt_c.ndm" FA_LIB
