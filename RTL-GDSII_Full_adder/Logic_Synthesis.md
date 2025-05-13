@@ -213,7 +213,7 @@ As we can see the hold timing is violated.
 
 ![image](https://github.com/user-attachments/assets/51a33d71-114a-472c-9e42-afbea71b2518)
 
-![image](https://github.com/user-attachments/assets/52af5233-5cac-42f4-9592-da1cc2fd1cb7)
+
 
 
 
