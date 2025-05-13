@@ -25,12 +25,16 @@ full_adder_synthesis/
 ### Synthesis Script (dc_full_adder.tcl) with Line-by-Line Explanation
 
 #### 1. Set the PDK path (used for loading technology libraries)
+```
 set PDK_PATH /data/pdk/pdk32nm/SAED32_EDK
+```
 Explanation:
 This variable points to the Process Design Kit (PDK), which includes liberty (.lib) files, LEF/DEF files, and technology information for synthesis and layout.
 
 #### 2. Load DC Reference Methodology setup (sets libraries, search paths, etc.)
+```
 source -echo -verbose ./rm_setup/dc_setup.tcl
+```
 Explanation:
 This script initializes the synthesis environment. It typically sets:
 
@@ -43,22 +47,29 @@ The -echo -verbose prints all commands being sourced for transparency.
 
 
 #### 3. Define your RTL Verilog source file
+```
 set RTL_SOURCE_FILES ./full_adder.v
+```
 Explanation:
 This defines the input RTL file to be analyzed and synthesized.
 
 #### 4. Create a working design library
+```
 define_design_lib WORK -path ./WORK
+```
 Explanation:
 Defines a local compiled library (WORK) where Design Compiler stores intermediate design states during synthesis.
 
 
 #### 5. Enable hierarchical mapping (optional for large designs)
+```
 set_app_var hdlin_enable_hier_map true
+```
 Explanation:
 Enables hierarchical design elaboration which helps in managing large or modular RTL designs.
 
 #### 6. Restrict usage of specific complex cells
+```
 set_dont_use [get_lib_cells */FADD*]
 set_dont_use [get_lib_cells */HADD*]
 set_dont_use [get_lib_cells */MUX*]
@@ -68,18 +79,23 @@ set_dont_use [get_lib_cells */NAND*]
 set_dont_use [get_lib_cells */XOR*]
 set_dont_use [get_lib_cells */NOR*]
 set_dont_use [get_lib_cells */XNOR*]
- Explanation:
+```
+Explanation:
 These commands disable certain complex or power-hungry standard cells.
 This encourages the tool to synthesize the logic using only basic gates or cells preferred for optimization (e.g., in educational projects or for area control).
 
 #### 7. Analyze the RTL file
+```
 analyze -format verilog ${RTL_SOURCE_FILES}
- Explanation:
+```
+Explanation:
 This reads the RTL code and checks for syntax/semantic correctness, but does not build the design yet.
 
 # 8. Elaborate the top-level design
+```
 elaborate ${DESIGN_NAME}
- Explanation:
+```
+Explanation:
 
 Converts the RTL into an intermediate GTECH netlist (generic technology-independent cells).
 
@@ -93,18 +109,25 @@ GTECH Mapping occurs here
 
 
 #### 9. Set the current design context
+```
 current_design
+```
 Explanation:
 Sets the design under focus (e.g., full_adder) so subsequent commands apply to it.
 
 #### 10. Set top-level for verification
+```
 set_verification_top
+```
 Explanation:
 Defines the top-level module for verification and reporting purposes (optional).
 
 #### 11. Load timing constraints (clock, input/output delays, etc.)
-read_sdc -echo ./full_adder.sdc
 
+```
+read_sdc -echo ./full_adder.sdc
+```
+```
 create_clock -period 1 [get_ports Clock]
 set_input_delay -max 0.5 -clock Clock [all_inputs]
 set_input_transition 0.1 [all_inputs]
@@ -113,7 +136,7 @@ set_clock_uncertainty -setup 0.300 [get_clocks Clock]
 set_clock_uncertainty -hold 0.100 [get_clocks Clock]
 set_max_transition 0.2 [current_design]
 set_max_transition -clock_path 0.04 [get_clocks Clock]
-
+```
 Explanation :
 Reads the Synopsys Design Constraints (SDC) file. This file defines timing constraints such as:
 
@@ -144,15 +167,19 @@ Now the design is built using SAED 32nm standard cells (e.g., NAND2X1, INVX1, et
 
 
 # 13. Export the final gate-level netlist
+```
 write -format verilog -hierarchy -output ${RESULTS_DIR}/${DCRM_FINAL_VERILOG_OUTPUT_FILE}
+```
 Explanation:
 Writes the technology-mapped Verilog netlist to the results/ directory.
 The -hierarchy flag ensures all modules are preserved in hierarchical form.
 
 
 #### 14. Export the updated constraints file
+```
 write_sdc ./${RESULTS_DIR}/${DCRM_FINAL_SDC_OUTPUT_FILE}
- Explanation:
+```
+Explanation:
 Outputs the SDC after possible changes during synthesis (e.g., adjusted clock propagation, load adjustments).
 
 Key Concepts
