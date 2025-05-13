@@ -95,6 +95,33 @@ Runs post-routing optimization using congestion and crosstalk-driven logic to im
 
 ![Screenshot 2025-05-13 001147](https://github.com/user-attachments/assets/cea8dcb2-c8c1-4a74-ac0b-f0a4c3c55bc3)
 
+#### Congestion Report : 
+
+![image](https://github.com/user-attachments/assets/237cb87f-9433-45d5-a4ba-22c93e4c9001)
+
+Layer wise report  ;
+
+![image](https://github.com/user-attachments/assets/d2936144-2c21-47f2-b1e6-99f82063756e)
+
+![image](https://github.com/user-attachments/assets/b5a55dc4-62d3-4153-b762-b84b591c7ca5)
+
+![image](https://github.com/user-attachments/assets/b9952ec4-ae6e-456c-a062-68fafca4121a)
+
+![image](https://github.com/user-attachments/assets/b53bae3e-5773-4616-938c-0d48c7e1e166)
+
+![image](https://github.com/user-attachments/assets/aa259318-fe90-4142-9621-d275373d660c)
+
+![image](https://github.com/user-attachments/assets/2f7b3c0f-7df6-4aad-879f-d29aaf16911a)
+
+![image](https://github.com/user-attachments/assets/19e334f1-83c6-4af2-8ced-766844c9f616)
+
+![image](https://github.com/user-attachments/assets/a656f7e8-912a-447f-ba67-933cb3e69564)
+
+![image](https://github.com/user-attachments/assets/006bec15-2159-4997-a61d-1ab18ad705f1)
+
+ As we know most of the congestion occurs in the lower layers like M4, M3 , M2 ,M1 due to high cell density and pins so more routes are required to connect.
+So the congestion in upper layers abve M4 or M5dont have much congestion .
+ 
 
 ### Output File Generation
 
