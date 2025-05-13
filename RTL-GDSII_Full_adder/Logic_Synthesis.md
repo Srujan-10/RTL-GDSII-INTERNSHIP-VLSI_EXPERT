@@ -150,6 +150,15 @@ Load constraints
 ```
 compile
 ```
+
+![image](https://github.com/user-attachments/assets/bb5a3f6f-b850-46a7-9a79-0d8b97cebd25)
+
+
+For end to end optimization use :
+```
+compile_ultra
+```
+
 Explanation:
 
 Performs synthesis, logic optimization, and technology mapping to standard cells.
@@ -160,9 +169,7 @@ Targets delay, area, and power optimization based on your constraints.
 
 Now the design is built using SAED 32nm standard cells (e.g., NAND2X1, INVX1, etc.), replacing GTECH components.
 
-![image](https://github.com/user-attachments/assets/bb5a3f6f-b850-46a7-9a79-0d8b97cebd25)
-
-
+![WhatsApp Image 2025-05-13 at 17 02 32_68c30f71](https://github.com/user-attachments/assets/db6b9cf2-dfff-4ecb-9b8b-0a4f046ce843)
 
 
 
@@ -200,18 +207,30 @@ full_adder_out.sdc → Updated constraint file
 Timing Report before compile command 
 ![WhatsApp Image 2025-05-12 at 00 24 18_00c5488a](https://github.com/user-attachments/assets/7b0b456a-082f-4791-8f56-66a1aba195f2)
 
-As we can see the setup slack is 0.2 and its met .
+Timing Report before after compile command 
+
+![WhatsApp Image 2025-05-13 at 17 05 23_7c141fad](https://github.com/user-attachments/assets/3e7e2961-d7f0-4fab-9b58-157c43a25f19)
+
+As we can see the setup slack is -0.17 and its met .
 
 2. Hold timing report :
 
-Timing Report before compile command
+Timing Report before compile command : 
 ![WhatsApp Image 2025-05-12 at 00 28 08_af285402](https://github.com/user-attachments/assets/37259670-50ab-4939-bf14-43c83800c013)
+
+Timing Report before after compile command :
+
+![WhatsApp Image 2025-05-13 at 17 07 06_cf0b95de](https://github.com/user-attachments/assets/7c70fa2c-e1c5-4e4b-b27b-ce2c1505c682)
+
+
 
 As we can see the hold timing is violated.
 
 3.  qor   report :
 
-![image](https://github.com/user-attachments/assets/51a33d71-114a-472c-9e42-afbea71b2518)
+![WhatsApp Image 2025-05-13 at 17 08 42_ae7a09c1](https://github.com/user-attachments/assets/5c09ce0c-4634-4c43-83c1-45982f858d95)
+
+![WhatsApp Image 2025-05-13 at 17 09 15_20fc239d](https://github.com/user-attachments/assets/e6b6fe23-babf-4b96-8c9d-aa74071e45a8)
 
 
 
