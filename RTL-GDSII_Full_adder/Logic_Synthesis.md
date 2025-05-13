@@ -216,7 +216,14 @@ As we can see the setup slack is -0.17 and its met .
 2. Hold timing report :
 
 Timing Report before compile command : 
+
+
+
 ![WhatsApp Image 2025-05-12 at 00 28 08_af285402](https://github.com/user-attachments/assets/37259670-50ab-4939-bf14-43c83800c013)
+
+
+
+
 
 Timing Report before after compile command :
 
