@@ -248,7 +248,7 @@ As we can see the hold timing is violated.
 
 3.  qor   report :
 
-![WhatsApp Image 2025-05-13 at 17 08 42_ae7a09c1](https://github.com/user-attachments/assets/5c09ce0c-4634-4c43-83c1-45982f858d95)
+
 
 ![WhatsApp Image 2025-05-13 at 17 09 15_20fc239d](https://github.com/user-attachments/assets/e6b6fe23-babf-4b96-8c9d-aa74071e45a8)
 
