@@ -204,12 +204,25 @@ full_adder_out.sdc → Updated constraint file
 
 1. Setup Timing Report  :
 
-Timing Report before compile command 
+
+Timing Report before compile command :
+
+
 ![WhatsApp Image 2025-05-12 at 00 24 18_00c5488a](https://github.com/user-attachments/assets/7b0b456a-082f-4791-8f56-66a1aba195f2)
+
+
+
 
 Timing Report before after compile command 
 
+
+
 ![WhatsApp Image 2025-05-13 at 17 05 23_7c141fad](https://github.com/user-attachments/assets/3e7e2961-d7f0-4fab-9b58-157c43a25f19)
+
+
+
+
+
 
 As we can see the setup slack is -0.17 and its met .
 
