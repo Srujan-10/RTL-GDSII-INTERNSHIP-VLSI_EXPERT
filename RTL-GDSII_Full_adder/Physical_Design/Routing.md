@@ -99,7 +99,7 @@ Runs post-routing optimization using congestion and crosstalk-driven logic to im
 
 ![image](https://github.com/user-attachments/assets/237cb87f-9433-45d5-a4ba-22c93e4c9001)
 
-Layer wise report  ;
+### Layer wise report  ;
 
 ![image](https://github.com/user-attachments/assets/d2936144-2c21-47f2-b1e6-99f82063756e)
 
@@ -121,7 +121,27 @@ Layer wise report  ;
 
  As we know most of the congestion occurs in the lower layers like M4, M3 , M2 ,M1 due to high cell density and pins so more routes are required to connect.
 So the congestion in upper layers abve M4 or M5dont have much congestion .
- 
+
+Report Cells :
+
+![image](https://github.com/user-attachments/assets/e3eb011c-9505-469a-b6ba-4d646c82e933)
+
+### Qor report : 
+
+![image](https://github.com/user-attachments/assets/5b47f789-51b9-4675-acbc-2315423a31d7)
+
+![image](https://github.com/user-attachments/assets/68c63175-7d85-4c7d-a39e-2cdc0142b5ef)
+
+![image](https://github.com/user-attachments/assets/a4684290-42e6-42e7-bd14-db80ea14aa70)
+
+### Utilization Report :
+
+![image](https://github.com/user-attachments/assets/a71c1180-d27a-44e3-84b0-5cc1e6907b2c)
+
+### report Scenarios : 
+
+![image](https://github.com/user-attachments/assets/58a556a8-c0d4-4d4b-9e19-d02ebbf2fc25)
+
 
 ### Output File Generation
 
