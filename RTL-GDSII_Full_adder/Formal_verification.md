@@ -35,32 +35,41 @@ Key goals of this run include:
 
 
 ###  Read RTL into reference container
+```
 read_verilog -container r -libname WORK -01 {./full_adder.v}
+```
+```
 set_top r:/WORK/full_adder
-
+```
 ### Read synthesized netlist into implementation container
+```
 read_verilog -container i -libname WORK -01 {./results/full_adder.mapped.v}
+```
+```
 set_top i:/WORK/full_adder
-
+```
 ### Load the standard cell library for mapping
+```
 read_db {/data/pdk/pdk32nm/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt0p78vn40c.db}
-
+```
 ### Reassert top module (optional but best practice)
+```
 set_top i:/WORK/full_adder
-
+```
 ### Match design structures
+```
 match
 
-
+```
 ![WhatsApp Image 2025-05-12 at 02 10 20_6b237f33](https://github.com/user-attachments/assets/45fde378-44f6-4b3f-83c9-97bc1a64a770)
 
 
 ![WhatsApp Image 2025-05-12 at 02 10 20_742dec9f](https://github.com/user-attachments/assets/25e72005-98b7-4450-853b-53e5388f250a)
 
 ### Run formal equivalence check
-
+```
 verify
-
+```
 ![WhatsApp Image 2025-05-12 at 02 10 20_a0d9a9b9](https://github.com/user-attachments/assets/1feb35b3-2d5a-4645-91c7-f6ec615084ca)
 
 
