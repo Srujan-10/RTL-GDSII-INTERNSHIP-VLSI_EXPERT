@@ -33,11 +33,11 @@ read_sdc -echo $SDC_PATH
 ```
 Loads the design timing constraints (clock, input delay, output delay, etc.)
 
+------------------------------------------------------------
+
 ### Site Row : 
 ![Screenshot 2025-05-12 235252](https://github.com/user-attachments/assets/f77a0526-41c9-4166-acad-10025fa21242)
 
-
-------------------------------------------------------------
 
 2. Set Placement and Optimization Options
 ```
