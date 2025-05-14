@@ -61,22 +61,21 @@ set_top i:/WORK/full_adder
 match
 
 ```
-![WhatsApp Image 2025-05-12 at 02 10 20_6b237f33](https://github.com/user-attachments/assets/45fde378-44f6-4b3f-83c9-97bc1a64a770)
+![WhatsApp Image 2025-05-14 at 13 54 32_4ccad3b7](https://github.com/user-attachments/assets/620151e7-1e11-4a55-a0a8-2341e70bbdd7)
 
-
-![WhatsApp Image 2025-05-12 at 02 10 20_742dec9f](https://github.com/user-attachments/assets/25e72005-98b7-4450-853b-53e5388f250a)
 
 ### Run formal equivalence check
 ```
 verify
 ```
-![WhatsApp Image 2025-05-12 at 02 10 20_a0d9a9b9](https://github.com/user-attachments/assets/1feb35b3-2d5a-4645-91c7-f6ec615084ca)
+![WhatsApp Image 2025-05-14 at 13 55 33_76ae0a07](https://github.com/user-attachments/assets/1b33ce00-86f1-4643-9929-01e5b0f02b18)
 
 
-![WhatsApp Image 2025-05-12 at 02 10 20_015a7d3f](https://github.com/user-attachments/assets/80024f4c-8bb9-47de-8145-54682f344524)
+![WhatsApp Image 2025-05-14 at 13 59 22_ba186d45](https://github.com/user-attachments/assets/fa719ec5-7fc5-4038-8f06-1031ae46893e)
 
+![WhatsApp Image 2025-05-14 at 13 55 33_2a762f8e](https://github.com/user-attachments/assets/ea456a9c-55be-4d52-a5fe-a2a1137cb7b3)
 
-![WhatsApp Image 2025-05-12 at 02 17 28_7ad5b605](https://github.com/user-attachments/assets/9e5a8f85-f584-4eb3-a870-22efe049b066)
+![WhatsApp Image 2025-05-14 at 14 03 59_704ecb9c](https://github.com/user-attachments/assets/505950c9-9e08-413e-b282-562bdb6054ab)
 
-
+![WhatsApp Image 2025-05-14 at 14 04 40_1647acf8](https://github.com/user-attachments/assets/5e7ef7c0-60be-43b2-abfb-073cbf834bc1)
 
