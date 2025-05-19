@@ -18,4 +18,4 @@
    - [Viewing the FRAME view of the block using Synopsys Library Manager](https://github.com/Srujan-10/RTL-GDSII-INTERNSHIP-VLSI_EXPERT/blob/main/RTL-GDSII_Full_adder/Frame_view_library_manager.md).
 
 ### 2.[Hierarchal Eight- Bit Full Adder using two four bit full adders ](https://github.com/Srujan-10/RTL-GDSII-INTERNSHIP-VLSI_EXPERT/blob/main/Hierarchal_Eight_bit_full_adder/Eight_bit_Hierarchal_design_VE.pdf)
-### 3. [Mini 8 operation  Alu using four 4-bit full_adders soft macros and standard cells] 
+### 3. [Mini 8 operation  Alu using four 4-bit full_adders soft macros and standard cells](https://github.com/Srujan-10/RTL-GDSII-INTERNSHIP-VLSI_EXPERT/blob/main/Hierarchal_alu_mini_4FA/alu_mini_4FA.pdf)
