@@ -237,5 +237,4 @@ if {$synopsys_program_name == "dc_shell"}  {
 }
 
 puts "RM-Info: Completed script [info script]\n"
-
 ```
