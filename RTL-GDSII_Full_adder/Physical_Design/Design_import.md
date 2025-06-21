@@ -44,7 +44,7 @@ set SDC_PATH "./results/full_adder.mapped.sdc"
 ```
 ### Create a design library and reference technology database
 ```
-create_lib -ref_libs "$PDK_PATH/lib/stdcell_rvt/ndm/saed32rvt_c.ndm"  -technology "/data/pdk/pdk32nm/SAED32_EDK/tech/milkyway/saed32nm_1p9m_mw.tf"  FULLADDER
+create_lib -ref_libs "$PDK_PATH/lib/stdcell_rvt/ndm/saed32rvt_c.ndm"    FULLADDER
 ```
 ####  Understanding `.ndm` and LEF Data in ICC2
 
