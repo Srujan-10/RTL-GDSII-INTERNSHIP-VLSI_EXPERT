@@ -244,7 +244,7 @@ Timing Report before after compile command :
 
 
 
-As we can see the hold timing is violated.
+As we can see the hold timing is met.
 
 3.  qor   report :
 
