@@ -224,7 +224,7 @@ Timing Report before after compile command
 
 
 
-As we can see the setup slack is -0.17 and its met .
+As we can see the setup slack is -0.17 and its not  met .
 
 2. Hold timing report :
 
